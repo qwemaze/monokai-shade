@@ -125,7 +125,13 @@ atom-text-editor, :host {
 }
 
 .storage {
-  color: #F92672;
+  color: #66D9EF;
+  font-style: italic;
+
+  // var of var a = b;
+  &.modifier {
+    color: #66D9EF;
+  }
 }
 
 .storage.type {
